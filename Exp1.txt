@@ -1,0 +1,72 @@
+Exp 1 Activities
+
+1. What is react native
+   => React native is a framework developed by Meta that allows us to build mobile applications for Android and iOS using JavaScript and React.
+
+
+2. What is difference between react and react native
+   =>  React	                           React Native
+       Used for web development	           Used for mobile app development
+       Runs in a web browser	           Runs on Android/iOS
+       Uses HTML elements	           Uses native components
+       Uses <div>	                   Uses <View>
+       Uses <p>	                           Uses <Text>
+       Uses CSS	                           Uses StyleSheet / styling
+       Browser DOM is used	           Native mobile components are used
+       Usually accessed through browser	   Installed as Android/iOS application
+
+
+3. Where we use react native in company levels
+   =>  1. E-commerce apps
+       2. Banking/finance apps
+       3. Food delivery apps
+       4. Education apps
+       5. Social media apps
+       6. Healthcare apps
+       7. Travel applications
+       8. Employee/company apps
+       9. Booking applications
+       10.Real-time communication apps
+
+
+4. What is chocolatey and why we install
+   =>  It is simply a Windows software/package management tool that can help set up your development environment.
+
+A React Native Android development environment requires several tools, such as:
+Node.js
+JDK
+Android Studio
+Android SDK
+Android Emulator
+ADB
+Chocolatey can simplify installation of some Windows development tools.
+
+
+5. Why we install jdk17 for react native and what is jdk17, why use
+   =>  JDK = Java Development Kit
+JDK is a collection of tools required to develop and build Java applications.
+
+
+
+
+6. What is android studio and why we use
+   =>  Android Studio is the official IDE for Android development.
+It is developed by Google and is based on IntelliJ IDEA
+
+React Native needs to:
+Your React Native project
+          ↓
+Android project
+          ↓
+Gradle build
+          ↓
+Android SDK
+          ↓
+Emulator / Physical phone
+          ↓
+Application
+Android Studio provides important Android development components needed for this process.
+
+
+sc -> welcome to react native 
+mobile home page

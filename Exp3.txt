@@ -1,0 +1,57 @@
+Exp 3
+
+In react native there are types of 4 components
+
+<View>, <Button>, <Text>, <Image>, <TextInput>
+
+
+1. <view> component is like a container. Everything goes inside the view. It works like a   <div>
+
+2. <Text> component is used for display text.
+
+
+<StyleSheet>  : 
+React native doesn't use css file instead it uses <StyleSheet> component. It stores all styles in one place.
+Advantages :
+1. Reusable
+2. Clean code
+3. Easy to maintain
+
+
+<ScrollView> :
+It renders everything at once, suitable for small amount of data 
+Example : about page, profile page, setting page, terms and conditions page
+
+<FlatList> : 
+It loads only visible items, best for large data
+Example : WhatsApp chat, instagram feed, amazon product
+
+<ScrollView> vs <FlatList> :
+
+
+
+<FlexBox> : 
+Without flexbox no UI, used for css
+
+Properties :
+FlexDirection : 'row'
+FlexDirection : 'column'
+3. JustifyCOntent : 'center'
+4. AlignItem : 'center'
+5. TextAlign : 'center'
+
+Example : 
+
+
+
+
+Activities :
+use all properties of flexbox
+create fruit list using flatlist
+create about page of college(10 paragraphs) using ScrollView
+
+
+
+
+
+

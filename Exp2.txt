@@ -1,0 +1,137 @@
+Exp 2 
+1. Which command need to enter creating react native application
+   =>  npx @react-native-community/cli@latest init MyFirstApp
+
+
+2. What is purpose of android folder
+   =>  The android folder contains all the Android-specific native code and configuration of a React Native application.
+
+It is used for:
+
+Building the app for Android.
+Managing Android permissions.
+Configuring Gradle and Android SDK.
+Creating and modifying native Android files
+
+ 
+3. why is ios folder present in application folder
+The ios folder contains iOS-specific native code and configuration.
+
+It is used when we want to:
+
+Build the React Native app for iPhone/iPad.
+Configure iOS permissions.
+Manage Xcode project settings.
+Add iOS-specific native functionality
+
+
+
+4. which file represent main screen 
+In a basic React Native project, App.tsx or App.jsx usually represents the main/root component of the application.
+
+
+
+5. diff package.json and packagelog.json
+package.json	                                package-lock.json
+Contains project information and dependencies	Records exact installed dependency                     						versions
+Can contain scripts	                        Locks dependency versions
+Usually edited by developer	                Usually generated/updated by npm
+Defines required packages	                Ensures the same dependency tree is installed
+
+
+6. use of nodemodule folder 
+The node_modules folder contains all the packages/dependencies installed for the project.
+
+
+7. what is metro bunlder and use of it 
+Metro Bundler is the JavaScript bundler used by React Native.
+
+Its main jobs are:
+
+Collect JavaScript/TypeScript files.
+Resolve imports.
+Bundle the application code.
+Serve the JavaScript bundle to the emulator or physical device.
+Detect changes during development and reload the app.
+
+
+8. which command we use to run application
+For Android:
+
+npx react-native run-android
+
+First, you can start Metro separately:
+
+npx react-native start
+
+
+
+9. how do we verify that physical device is connected
+Enable USB Debugging on your Android phone and connect it to the computer.
+
+Then run:
+
+adb devices
+
+If the device is properly connected, you may see:
+
+List of devices attached
+R5XXXXXXXXX    device
+
+Here:
+
+device
+
+means the phone is connected and available for debugging.
+
+
+10. purpose of usb debugging
+USB Debugging allows the computer to communicate with an Android phone through ADB (Android Debug Bridge).
+
+It allows us to:
+
+Install applications on the phone.
+Run React Native applications.
+Send commands to the device.
+View logs.
+Debug applications.
+Transfer information between computer and device.
+
+
+
+11. how we do testing on emulator and physical devices
+Step 1: Enable Developer Options.
+
+Step 2: Enable USB Debugging.
+
+Step 3: Connect your phone using a USB cable.
+
+Step 4: Accept the "Allow USB debugging?" popup on your phone.
+
+Step 5: Check the connection:
+
+adb devices
+
+You should see:
+
+XXXXXXXXXXXX    device
+
+Step 6: Run:
+
+npx react-native run-android
+
+The application will be installed and launched on your physical phone.
+
+
+
+
+
+
+practical
+1. display msg hello
+2. blank page 
+3. welcome to react native with name
+4. change text size color and background
+5. create login page
+6. create simple counter ui
+7. create a simple student card with name, prn, photo

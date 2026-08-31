@@ -1,0 +1,16 @@
+reusable components 
+button , textinput, header common code
+
+
+Exp5 : 
+
+Activities :
+
+1. What is reusable components
+2. Create custombutton, card, customeheader, customeinput
+3. How we combine all above reusable components in 1 file
+
+
+
+touchableOpacity :
+It is a react native component used to make something capable

@@ -1,0 +1,56 @@
+Exp 4
+
+Activities :
+1. Props : 
+	Props are used to pass data from a parent component to a child component.
+
+	Props are used to pass data between components.
+ 	Data normally flows parent → child.
+	Props are read-only.
+	A child should not directly modify its props.	
+
+	function Student(props) {
+	  return <h2>Hello {props.name}</h2>;
+	}
+
+	function App() {
+	  return (
+    		<Student name="Anuja" />
+  	);
+	}
+
+
+2. Usestate :
+	useState is a React Hook used to store and update data that can change during the 	lifetime of a component.	
+
+
+	const [count, setCount] = useState(0);
+	count       → current value
+	setCount    → function used to change the value
+	0           → initial value
+
+
+
+3. Useeffect : 
+	useEffect is a Hook used to perform side effects in a component.
+
+	A side effect is something that happens outside the normal rendering process.
+	Examples:
+
+	Calling an API
+	Fetching data
+	
+
+
+4. hooks :
+	Hooks are special React functions that allow functional components to use React 	features such as state and lifecycle-related behavior.
+
+	Before Hooks were introduced, many React features were commonly handled using class 	components.
+
+	With Hooks, we can use these features inside functional components.
+
+
+5. login and registration page
+
+
+
