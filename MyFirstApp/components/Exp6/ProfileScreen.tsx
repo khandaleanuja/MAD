@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {View, StyleSheet, Alert, Text} from 'react-native';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 
 import CustomButton from '../Exp6/CustomButton';
@@ -8,7 +9,16 @@ import CustomCard from '../Exp6/CustomCard';
 import CustomInput from '../Exp6/CustomInput';
 
 
-const ProfileScreen = () => {
+
+type RootStackParamList = {
+  Profile: undefined;
+  Settings: undefined;
+};
+
+type Props = NativeStackScreenProps<RootStackParamList, 'Profile'>;
+
+
+const ProfileScreen = ({ navigation } : Props) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -50,6 +60,11 @@ const ProfileScreen = () => {
           onPress={saveProfile}
         />
 
+
+        <CustomButton
+          title="Go to Settings"
+        onPress={() => navigation.navigate('Settings')}
+        />    
         
       </CustomCard>
 
